@@ -2,6 +2,7 @@ referrer_search_phrase
 ======================
 
 A common theme online:
+
  * A user goes to their favorite search engine and search for something fun
  * That search engine happens to provide a link to your site, which the user happily clicks on
  * The user is now on your site, after having searched for something fun.  Awesome.
