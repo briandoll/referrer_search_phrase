@@ -13,8 +13,8 @@ class ReferrerSearchPhrase < Object
         referrer_search_phrase = self.get_search_phrase(referred_engine, parsed_uri)
       end
     rescue
-      referrer_search_phrase
     end
+    referrer_search_phrase
   end
   
   private
