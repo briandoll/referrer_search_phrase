@@ -9,12 +9,14 @@ A common theme online:
 If you've ever wanted to do something with that original search phrase within your app, this library makes it easy to get at it.
 
 A simple google example:
+
 <code>
 ReferrerSearchPhrase.get("http://www.google.com/search?hl=en&source=hp&q=foo+bar&aq=f&oq=&aqi=g8g-s1g1")
 => "foo bar"
 </code>
 
 Not a search engine:
+
 <code>
 ReferrerSearchPhrase.get("http://www.somethingrandom.com/search?foo+bar")
 => nil
